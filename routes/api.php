@@ -1,9 +1,7 @@
 <?php
-
-use Illuminate\Support\Facades\Route;
-
-use Illuminate\Http\Request;
-use App\Models\Project;
+  use Illuminate\Support\Facades\Route;
+  use Illuminate\Http\Request;
+  use App\Models\Project;
   
     Route::get('/projects', function () {
         return App\Models\Project::all();
